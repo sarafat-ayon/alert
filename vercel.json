@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "outputDirectory": ".output",
+  "framework": "nuxt",
+  "functions": {
+    "api/**.js": {
+      "runtime": "nodejs16.x"
+    }
+  }
+}
