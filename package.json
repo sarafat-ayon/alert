@@ -106,5 +106,9 @@
     "prettier": "^2.7.1",
     "sass": "^1.53.0",
     "sass-loader": "^10.2.1"
+  },
+  "packageManager": "yarn@1.22.21",
+  "engines": {
+    "node": "14.21.3"
   }
 }
