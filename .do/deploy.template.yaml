@@ -1,0 +1,34 @@
+spec:
+  name: sharp-archive
+  region: sfo
+  services:
+  - build_command: yarn build
+    environment_slug: node-js
+    envs:
+    - key: NUXT_PORT
+      scope: RUN_AND_BUILD_TIME
+      value: 8080
+    - key: NUXT_HOST
+      scope: RUN_AND_BUILD_TIME
+      value: 0.0.0.0
+    - key: APP_NAME
+      scope: RUN_AND_BUILD_TIME
+      value: 'Sharp Archive'
+    - key: API_URL
+      scope: RUN_AND_BUILD_TIME
+      value: https://sharp-archive.herokuapp.com/api
+    - key: API_BASE_URL
+      scope: RUN_AND_BUILD_TIME
+      value: https://sharp-archive.herokuapp.com
+    github:
+      branch: dev
+      deploy_on_push: true
+      repo: hudacse6/SharpArchive
+    http_port: 8080
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    name: sharp-archive
+    routes:
+    - path: /
+    run_command: yarn start
+    source_dir: /

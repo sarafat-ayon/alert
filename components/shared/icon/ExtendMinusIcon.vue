@@ -1,0 +1,17 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+    <defs>
+      <style>
+        .ExtendMinusIcon {
+          fill: #fff;
+        }
+      </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Layer_1-2" data-name="Layer 1">
+        <path id="ic_add_to_photos_24px" data-name="ic add to photos 24px" class="ExtendMinusIcon"
+          d="M2,4H0V18a2,2,0,0,0,2,2H16V18H2ZM18,0H6A2,2,0,0,0,4,2V14a2,2,0,0,0,2,2H18a2,2,0,0,0,2-2V2A2,2,0,0,0,18,0ZM17,9H7V7H17Z" />
+      </g>
+    </g>
+  </svg>
+</template>

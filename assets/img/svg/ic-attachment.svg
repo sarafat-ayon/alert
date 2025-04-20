@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 11">
+    <defs>
+        <style>.ic_attachment{fill:#656565;}</style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <path id="ic_attachment_24px" data-name="ic attachment 24px" class="ic_attachment" d="M0,5.5A5.5,5.5,0,0,1,5.5,0H16a4,4,0,0,1,0,8H7.5a2.5,2.5,0,0,1,0-5H15V5H7.41c-.55,0-.55,1,0,1H16a2,2,0,0,0,0-4H5.5a3.5,3.5,0,0,0,0,7H15v2H5.5A5.5,5.5,0,0,1,0,5.5Z" />
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 13.93">
+    <defs>
+      <style>
+        .cls-1 {
+          fill: #fff;
+        }
+      </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Layer_1-2" data-name="Layer 1">
+        <path
+          id="ic_file_download_24px"
+          data-name="ic file download 24px"
+          class="cls-1"
+          d="M15,6.43H10.71V0H4.29V6.43H0l7.5,7.5Z"
+        />
+      </g>
+    </g>
+  </svg>
+</template>

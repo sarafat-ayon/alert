@@ -1,0 +1,19 @@
+/* for page */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+/* for layout  */
+.my-layouts-enter-active,
+.my-layouts-leave-active {
+  transition: opacity 0.5s;
+}
+.my-layouts-enter,
+.my-layouts-leave-active {
+  opacity: 0;
+}
